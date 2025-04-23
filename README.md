@@ -1,2 +1,2 @@
 # Stopwatch
-Stopwatch
+a simple Stopwatch
