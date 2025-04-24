@@ -1,14 +1,69 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Stopwatch.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stopwatch</title>
-    <script type="module" crossorigin src="/assets/index-hQqHxWOH.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CbZ_bmIR.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3b82f6">
+  <title>Online Stopwatch | Free Timer Tool | QuantumAI</title>
+  <meta name="description"
+    content="Free online stopwatch with countdown, lap times, and multiple display formats. No downloads required - use directly in your browser for sports, cooking, and productivity.">
+  <meta name="keywords"
+    content="online stopwatch, free timer, countdown timer, lap timer, digital stopwatch, time tracking tool">
+
+  <link rel="icon" type="image/svg+xml" href="/images/Stopwatch.svg" />
+
+  <!-- Open Graph / Social Meta (for sharing) -->
+  <meta property="og:title" content="Free Online Stopwatch Tool | QuantumAI">
+  <meta property="og:description"
+    content="Accurate browser-based stopwatch with countdown and lap time features. Perfect for workouts, labs, and time management.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stopwatch.quantumai.party">
+  <meta property="og:image" content="/images/stopwatch-preview.png">
+  <meta property="og:site_name" content="QuantumAI Tools">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Free Online Stopwatch | QuantumAI">
+  <meta name="twitter:description"
+    content="Precision stopwatch tool with no installation needed. Track time for sports, cooking, and experiments.">
+  <meta name="twitter:image" content="/images/stopwatch-preview.png">
+
+  <!-- Favicon & App Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-BOsmpi1O.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32-CdLS1afT.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16-QVHOn2gg.png">
+  <link rel="mask-icon" href="data:image/svg+xml,%3c?xml%20version='1.0'%20standalone='no'?%3e%3c!DOCTYPE%20svg%20PUBLIC%20'-//W3C//DTD%20SVG%201.1//EN'%20'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3e%3csvg%20t='1745389226495'%20class='icon'%20viewBox='0%200%201024%201024'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20p-id='3579'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20width='200'%20height='200'%3e%3cpath%20d='M822.2%20873.1C916.6%20788.1%20976%20665%20976%20528c0-64.3-13.1-125.5-36.7-181.2-9.7-22.7-5.8-49%2010.6-67.5C976.1%20249.6%20992%20210.7%20992%20168%20992%2075.2%20916.8%200%20824%200c-51.3%200-97.2%2023-128%2059.1-16%2018.8-41.4%2026.5-65.2%2020.2C592.9%2069.3%20553.1%2064%20512%2064s-80.9%205.3-118.8%2015.4c-23.8%206.3-49.2-1.5-65.2-20.2C297.2%2023%20251.3%200%20200%200%20107.2%200%2032%2075.2%2032%20168c0%2042.7%2015.9%2081.6%2042.1%20111.3%2016.4%2018.5%2020.2%2044.8%2010.6%2067.5C61.1%20402.5%2048%20463.7%2048%20528c0%20137%2059.4%20260.1%20153.8%20345.1%2013.7%2012.3%2014.4%2033.5%201.4%2046.5l-41.8%2041.8c-12.5%2012.5-12.5%2032.8%200%2045.3%206.3%206.3%2014.4%209.4%2022.6%209.4s16.4-3.1%2022.6-9.4l67-67c5-5%2012.6-6.2%2018.8-2.8C357.8%20972%20432.6%20992%20512%20992s154.2-20%20219.6-55.2c6.2-3.3%2013.8-2.1%2018.8%202.8l67%2067c6.3%206.3%2014.4%209.4%2022.6%209.4s16.4-3.1%2022.6-9.4c12.5-12.5%2012.5-32.8%200-45.3l-41.8-41.8c-13-12.9-12.3-34.1%201.4-46.4zM769%20544.9c-0.5%2017.4-15.2%2031.1-32.7%2031.1H544c-35.3%200-64-28.7-64-64V256.7c0-17.4%2013.7-32.2%2031.1-32.7%2018.1-0.5%2032.9%2014%2032.9%2032v240c0%208.8%207.2%2016%2016%2016h177c18%200%2032.5%2014.8%2032%2032.9z%20m-26.8-441c19.7-25.1%2050.8-41%2085.4-39.8%2054.2%201.8%2098.3%2045.7%20100.4%2099.9%201.1%2029.5-10.1%2056.4-28.8%2076-6.8%207-18.1%206.5-24.2-1.1-35.5-44.4-78.9-82.2-128.2-111.2-8.5-5-10.7-16.1-4.6-23.8zM96.1%20164c2.1-54.2%2046.2-98.1%20100.4-99.9%2034.6-1.2%2065.7%2014.7%2085.4%2039.8%206%207.7%203.8%2018.8-4.5%2023.7-49.3%2029-92.7%2066.7-128.2%20111.2-6.1%207.6-17.4%208.1-24.2%201.1-18.8-19.6-30-46.5-28.9-75.9z'%20p-id='3580'%3e%3c/path%3e%3c/svg%3e" color="#3b82f6">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://stopwatch.quantumai.party">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Online Stopwatch",
+      "url": "https://stopwatch.quantumai.party",
+      "description": "Free browser-based stopwatch with countdown and lap timing functionality",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "screenshot": "/images/stopwatch-preview.png"
+    }
+  </script>
+
+  <title>stopwatch</title>
+  <script type="module" crossorigin src="/assets/index-CJgRymtv.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DVL854Bu.css">
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
 </html>

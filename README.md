@@ -1,2 +1,0 @@
-# Stopwatch
-a simple Stopwatch
